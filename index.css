@@ -1,0 +1,94 @@
+.demo-card-wide.mdl-card {
+  width: 100%;
+    text-align: center;
+    margin-top:18px;
+    margin-bottom: 18px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 280px;
+  background: url('index.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.search, mdl-textfield__label{
+    width:100%;
+}
+.mdl-card__title-text{
+    text-align: left;
+    padding: 5px;
+}
+.uploader{
+    margin: 7px;
+    margin-left: 8px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-icon{
+    margin:7px;
+    color: white;
+}
+.nav-spl{
+    margin:2px;
+    color:white;
+}
+.mdl-dialog {
+  border: none;
+  box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+  width: 400px; }
+  .mdl-dialog__title {
+    padding: 20px 20px 0;
+    margin: 0;
+    font-size:30px; }
+  .mdl-dialog__actions {
+    padding: 5px 5px 5px 24px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .mdl-dialog__actions > * {
+      margin-right: 8px;
+      height: 36px; }
+      .mdl-dialog__actions > *:first-child {
+        margin-right: 0; }
+    .mdl-dialog__actions--full-width {
+      padding: 0 0 8px 0; }
+      .mdl-dialog__actions--full-width > * {
+        height: 48px;
+        -webkit-flex: 0 0 100%;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        padding-right: 16px;
+        margin-right: 0;
+        text-align: right; }
+  .mdl-dialog__content {
+    padding: 20px 24px 24px 24px;
+    color: rgba(0,0,0, 0.54); }
+
+.fb-button{
+    background-color:#3B5998;
+    color:white;
+    margin:10px;
+    margin-bottom:13px;
+}
+.g-button{
+    background-color:white;
+    color: black;
+    margin:10px;
+    margin-right:13px;
+    margin-bottom:13px;
+}
+.profile-img{
+    width:250px;
+    border-radius: 50%;
+}
+.mdl-cell{
+    text-align: center;
+}
